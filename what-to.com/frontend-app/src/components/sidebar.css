@@ -1,0 +1,10 @@
+.dropdown-toggle { outline: 0; }
+
+.nav-link:visited {
+    color: inherit; /* Or any color you prefer */
+}
+@media (prefers-color-scheme: dark) {
+    .bi {
+        filter: invert(100%);
+    }
+}

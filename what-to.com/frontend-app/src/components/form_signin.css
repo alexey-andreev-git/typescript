@@ -1,0 +1,43 @@
+.form-signin input[type="email"],
+.form-signin input[type="password"] {
+  background-color: #222;
+  color: #E0E0E0;
+  border-color: #555;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 1rem;
+  background-color: #333;
+  color: #E0E0E0;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+@media (prefers-color-scheme: light) {
+  .form-signin {
+    background-color: #E0E0E0;
+    color: #333;
+  }
+
+  .form-signin input[type="email"],
+  .form-signin input[type="password"] {
+    background-color: #FFFFFF;
+    color: #222;
+    border-color: #555;
+  }
+}
